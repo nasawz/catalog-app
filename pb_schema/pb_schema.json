@@ -141,6 +141,19 @@
           "min": null,
           "max": null
         }
+      },
+      {
+        "id": "skghzgtd",
+        "name": "code",
+        "type": "text",
+        "system": false,
+        "required": false,
+        "unique": false,
+        "options": {
+          "min": null,
+          "max": null,
+          "pattern": ""
+        }
       }
     ]
   }
