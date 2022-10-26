@@ -1,7 +1,14 @@
 {
-  "name": "palline-catalog-app",
+  "name": "catalog-app",
   "version": "0.1.0",
   "private": true,
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "env-cmd -f .env react-scripts build",
+    "watch": "env-cmd -f .env node scripts/watch.js",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -10,17 +17,23 @@
     "@types/node": "^16.18.0",
     "@types/react": "^18.0.23",
     "@types/react-dom": "^18.0.7",
+    "axios": "0.27.2",
+    "classnames": "2.3.2",
+    "env-cmd": "^10.1.0",
+    "framer-motion": "^7.3.6",
+    "nextra-theme-docs": "^1.2.6",
+    "pocketbase": "^0.7.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-helmet": "^6.1.0",
     "react-scripts": "5.0.1",
     "typescript": "^4.8.4",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+  "devDependencies": {
+    "@types/react-helmet": "^6.1.5",
+    "postcss": "8.4.18",
+    "tailwindcss": "3.1.8"
   },
   "eslintConfig": {
     "extends": [
