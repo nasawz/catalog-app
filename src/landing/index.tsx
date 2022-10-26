@@ -146,7 +146,7 @@ function SiteCards() {
                             className="turborepoCardBg"
                         >
                             <p className="text-lg !w-[280px] md:!w-[340px] font-space-grotesk text-center opacity-50 dark:opacity-70">
-
+                                {site['code']}
                             </p>
                         </Card>
                     </FadeIn>
