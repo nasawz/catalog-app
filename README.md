@@ -8,4 +8,4 @@ yarn start
 
 ## build
 yarn build
-go build -o main.exe main.go
+go build -o catalog-app.exe main.go
